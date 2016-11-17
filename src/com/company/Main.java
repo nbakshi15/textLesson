@@ -24,6 +24,7 @@ public class Main {
 
         FileWriter fw = new FileWriter("output.txt");
         PrintWriter output = new PrintWriter(fw);
+        System.out.println("username:");
         output.print ("APPLE SUX");
         output.close();
         fw.close();
